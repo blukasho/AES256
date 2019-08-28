@@ -6,7 +6,7 @@
 /*   By: blukasho <bodik1w@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/26 15:43:41 by blukasho          #+#    #+#             */
-/*   Updated: 2019/08/27 22:26:47 by blukasho         ###   ########.fr       */
+/*   Updated: 2019/08/28 09:01:59 by blukasho         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,7 +108,6 @@ unsigned char				*g_round_keys;
 void						rotword(unsigned char *word);
 void						subword(unsigned char *word);
 void						keyexpansion(void);
-void						print_round_keys(void);
 void						addroundkey(int round);
 void						subbytes(void);
 void						shiftrows(void);
@@ -117,5 +116,10 @@ void						cipher(void);
 
 //init
 void						initarrays(void);
+
+//print
+void						print_key(void);
+void						print_output(void);
+void						print_round_keys(void);
 
 #endif

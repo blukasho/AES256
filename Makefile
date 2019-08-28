@@ -6,12 +6,12 @@
 #*   By: blukasho <bodik1w@gmail.com>               +#+  +:+       +#+        *#
 #*                                                +#+#+#+#+#+   +#+           *#
 #*   Created: 2019/08/26 15:43:34 by blukasho          #+#    #+#             *#
-#*   Updated: 2019/08/27 22:14:10 by blukasho         ###   ########.fr       *#
+#*   Updated: 2019/08/28 09:02:00 by blukasho         ###   ########.fr       *#
 #*                                                                            *#
 #* ************************************************************************** *#
 
 SRCS=rotword.c subword.c keyexpansion.c addroundkey.c subbytes.c shiftrows.c\
-	 main.c mixcolumns.c cipher.c init.c
+	 main.c mixcolumns.c cipher.c init.c print.c
 
 SRCSDIR=srcs/
 
